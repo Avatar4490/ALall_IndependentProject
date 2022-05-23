@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -281568219605538669}
   m_Layer: 0
   m_Name: Minus 1
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,6 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d395f8889c5198c4d851312ca7d7a402, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointValue: -13
+  expParticle: {fileID: 5296795942654329333, guid: 1180422d6c048f34c85c402e57eb78c5, type: 3}
 --- !u!54 &-5416411470178382914
 Rigidbody:
   m_ObjectHideFlags: 0
