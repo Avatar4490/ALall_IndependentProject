@@ -21,6 +21,7 @@ public class Target : MonoBehaviour
     public int pointValue;
     public ParticleSystem expParticle;
 
+    public AudioClip audioClip;
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +55,7 @@ public class Target : MonoBehaviour
     {
         if(gameManager.gameActive)
         {
+            AudioSource.PlayClipAtPoint(audioClip, transform.position);
             gameManager.UpdateScore(pointValue);
             Instantiate(expParticle, transform.position, expParticle.transform.rotation);
             Destroy(gameObject);

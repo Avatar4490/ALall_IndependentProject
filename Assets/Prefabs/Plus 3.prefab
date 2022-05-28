@@ -123,6 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointValue: 5
   expParticle: {fileID: 4432261138777942082, guid: afbc42ccf3a5b604c96ee4b6af804977, type: 3}
+  audioClip: {fileID: 8300000, guid: 63a6e2cf42d7d574db88238c2ab128c3, type: 3}
 --- !u!54 &-4479667471074749241
 Rigidbody:
   m_ObjectHideFlags: 0
